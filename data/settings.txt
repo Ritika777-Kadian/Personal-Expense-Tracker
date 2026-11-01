@@ -1,0 +1,12 @@
+#Personal Expense Tracker Settings
+#Sun Nov 01 15:58:36 IST 2026
+collegeName=Faculty of Technology & Engineering
+currencyCode=INR
+currencySymbol=₹
+department=Department of Computer Science & Engineering
+firstLaunchPromptShown=true
+lastBackupDate=Never
+sampleDataActive=true
+studentName=Ritika Kadian
+studentRollNo=CS-2024-042
+themeName=Modern Light
