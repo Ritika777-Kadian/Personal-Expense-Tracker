@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: personal-expense-tracker-backend
+    env: docker
+    dockerfilePath: backend/Dockerfile
+    dockerContext: backend
+    plan: free
+    region: oregon
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod
+      - key: DATABASE_URL
+        sync: false # Set to your Neon PostgreSQL JDBC URL
+      - key: DATABASE_USERNAME
+        sync: false # Set to your Neon DB username
+      - key: DATABASE_PASSWORD
+        sync: false # Set to your Neon DB password
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CORS_ALLOWED_ORIGINS
+        sync: false # e.g. https://your-app.vercel.app,http://localhost:5173

@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build Outputs & Binaries
+bin/
+target/
+dist/
+build/
+*.class
+PersonalExpenseTracker_Project.zip
+
+# Databases & local persistent files
+*.db
+*.mv.db
+*.trace.db
+data/*.db
+data/*.mv.db
+data/*.trace.db
+**/backend/data/
+backend/data/
+
+# Environment files & secrets
+.env
+.env.*
+!.env.example
+
+# Local tools & SDKs
+.tools/
+
+# IDE & OS Artifacts
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+backend_out.txt
+backend_err.txt

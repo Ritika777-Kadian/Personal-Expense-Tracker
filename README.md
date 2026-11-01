@@ -4,6 +4,10 @@ A fully functional, professional-grade desktop **Personal Expense Tracker** appl
 
 Designed as an individual college practical and major project evaluation for university students, strictly adhering to pure Object-Oriented Programming (OOP) paradigms with zero external databases or third-party dependencies.
 
+> [!TIP]
+> **🚀 Looking for the Full-Stack Web Edition?**  
+> A complete, modern web edition of this platform (**Spring Boot 3 + React 18 + PostgreSQL + Neon + Render + Vercel**) is available in the [`PersonalExpenseTracker-Web/`](PersonalExpenseTracker-Web/README.md) directory, featuring stateless JWT authentication, Recharts analytics, and cloud deployment ready configurations.
+
 ---
 
 ## Key Highlights
